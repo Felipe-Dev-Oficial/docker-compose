@@ -18,6 +18,8 @@ services:
       - ./meufrontend:/usr/share/nginx/html
     # - C:\Users\Admin\Documents\docker-compose-nginx
     ports:
-      - "8085:80"
+      - "80:80"
+      #porta 8085 --> porta do host/endpoint
+      #porta 80 --> porta do container a ser acessado
 
 
